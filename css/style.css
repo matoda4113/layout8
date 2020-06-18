@@ -1,0 +1,158 @@
+/* 전체초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* topnav 설정 */
+.topnav {
+    padding: 10px 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+.topnav li {
+    float: right;
+}
+.topnav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.topnav li {
+    list-style-type: none;
+    
+}
+.topnav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+.topnav a:hover{
+    background-color: lightgray;
+}
+/* header 부분 */
+header {
+    max-width: 1400px;
+    margin: 60px auto 0 auto;
+    position: relative;
+    
+}
+header img {
+    width: 100%;
+    display: block;
+    
+}
+.name {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+/* main 부분 */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+section {
+    padding: 64px 0;
+}
+main div {
+    padding: 12px 24px;
+    width: 50%;
+    float: left;
+}
+main img {
+    width: 100%;
+}
+main h1 {
+    text-align: center;
+    font-size: 2em;
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+}
+main h2 {
+    
+    font-size: 1.7em;
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    display: block;
+    margin: 5px 0;
+}
+#menu p {
+    font-size: 12px;
+    margin: 5px;
+}
+#about::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* contact 부분 */
+#contact {
+    padding: 64px 16px;
+}
+#contact input {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px ;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+#contact h1 {
+    text-align: left;
+    margin: 20px 0;
+} 
+#contact p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+#contact a {
+    padding: 10px;
+    background-color: lightgray;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+#contact a:hover {
+    background-color: gray;
+}
+/* footer부분 */
+footer {
+    background-color: lightgray;
+    padding: 40px;
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    color: black;
+
+}
+footer a:hover {
+    color: green;
+
+}
