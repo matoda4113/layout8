@@ -57,7 +57,7 @@ header img {
 }
 /* main 부분 */
 main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     
     
@@ -127,7 +127,7 @@ main h3 {
 } 
 #contact p {
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 12px;
 }
 #contact a {
     padding: 10px;
